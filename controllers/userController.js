@@ -1,6 +1,5 @@
 import jwt from "jsonwebtoken";
-const bcrypt = require('bcryptjs');
-
+import bcrypt from "bcrypt";
 import validator from "validator";
 import userModel from "../models/userModel.js";
 
